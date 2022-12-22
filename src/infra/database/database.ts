@@ -1,7 +1,7 @@
 import { PrismaService } from './prisma/prisma.service';
 import { Module } from "@nestjs/common";
-import { PrismaNotificationsRepository } from './prisma/repositories/prisma-notificcations-repository';
-import { NotificationRepository } from 'src/app/repossitories/notifications-repositorry';
+import { PrismaNotificationsRepository } from './prisma/repositories/prisma-notifications-repository';
+import { NotificationRepository } from '@app/repositories/notifications-repository';
 
 @Module({
     providers: [

@@ -1,4 +1,4 @@
-import { DatabaseModule } from './infra/databae/database.module';
+import { DatabaseModule } from './infra/database/database';
 import { HttpModule } from './infra/http/http.module';
 import { Module } from '@nestjs/common';
 
